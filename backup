@@ -1,0 +1,161 @@
+
+      
+
+
+      
+
+      <OptionsCard option="A . Narendra Modi"/>
+      <OptionsCard option="B . Sonia Gandhi"/>
+      <OptionsCard option="C . Narendra Naidu"/>
+      <OptionsCard option="D . Maneka Gandhi"/>
+
+      <View style={{
+        flexDirection : 'row'
+      }}>
+      <View
+      style={{
+      borderColor : '#57c6de',
+      backgroundColor :'#57c6de',
+      height : 60,
+      borderWidth : 1,
+      marginTop : 10,
+      marginLeft : 20,
+      marginRight : 5,
+      width : (window.width-60)/2,
+      alignSelf : 'flex-start',
+      borderRadius : 5,
+      justifyContent :'center'
+      }}
+      >
+      <Text
+      style={{
+        fontSize : 35,
+        color : 'white',
+        fontFamily : 'ptsansreg',
+        textAlign :'center',
+        marginLeft : 10
+      }}
+      >
+      Next
+      </Text>
+      </View>
+
+      <View
+      style={{
+      borderColor : '#57c6de',
+      backgroundColor :'#57c6de',
+      height : 60,
+      borderWidth : 1,
+      marginTop : 10,
+      marginLeft : 15,
+      width : (window.width-60)/2,
+      alignSelf : 'flex-end',
+      borderRadius : 5,
+      justifyContent :'center'
+      }}
+      >
+      <Text
+      style={{
+        fontSize : 30,
+        color : 'white',
+        fontFamily : 'ptsansreg',
+        textAlign :'center',
+        marginLeft : 10
+      }}
+      >
+      Show Answer
+      </Text>
+      </View>
+      </View>
+
+
+
+
+
+<ListView
+            dataSource = {this.state.dataSource}
+            renderRow = {
+            (rowData)=> 
+            <View>
+            {
+              
+              
+            }
+            <QuestionCard question = {rowData.question}/>
+            
+            </View>
+            }
+      />
+
+
+      <OptionsCard option="A . Narendra Modi"/>
+      <OptionsCard option="B . Sonia Gandhi"/>
+      <OptionsCard option="C . Narendra Naidu"/>
+      <OptionsCard option="D . Maneka Gandhi"/>
+
+      <View style={{
+        flexDirection : 'row'
+      }}>
+      <View
+      style={{
+      borderColor : '#57c6de',
+      backgroundColor :'#57c6de',
+      height : 60,
+      borderWidth : 1,
+      marginTop : 10,
+      marginLeft : 20,
+      marginRight : 5,
+      width : (window.width-60)/2,
+      alignSelf : 'flex-start',
+      borderRadius : 5,
+      justifyContent :'center'
+      }}
+      >
+      <Text
+      style={{
+        fontSize : 35,
+        color : 'white',
+        fontFamily : 'ptsansreg',
+        textAlign :'center',
+        marginLeft : 10
+      }}
+      >
+      Next
+      </Text>
+      </View>
+
+      <View
+      style={{
+      borderColor : '#57c6de',
+      backgroundColor :'#57c6de',
+      height : 60,
+      borderWidth : 1,
+      marginTop : 10,
+      marginLeft : 15,
+      width : (window.width-60)/2,
+      alignSelf : 'flex-end',
+      borderRadius : 5,
+      justifyContent :'center'
+      }}
+      >
+      <Text
+      style={{
+        fontSize : 30,
+        color : 'white',
+        fontFamily : 'ptsansreg',
+        textAlign :'center',
+        marginLeft : 10
+      }}
+      >
+      Show Answer
+      </Text>
+      </View>
+      </View>
+
+
+
+
+
+
+
+
